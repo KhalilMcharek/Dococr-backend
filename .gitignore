@@ -1,0 +1,39 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## DB local files
+*.db
+
+## Local app settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Entity Framework Migrations
+# On garde migrations/ car tu veux les partager
+.vs/
